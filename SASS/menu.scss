@@ -84,20 +84,16 @@ html {
 .fonctionnement {
   padding: ($padding + 1rem) $padding;
   align-items: center;
-  
 
   &__titre {
     display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     @media (min-width:64rem) {
       display:flex;
       width:1200px;
       gap:2rem;
+      margin: 1rem auto;
     }
   }
 
@@ -145,7 +141,7 @@ html {
     @media (min-width:64rem) {
       flex: 1;
       margin: 0;
-      margin-left: 2rem
+      margin-left: 2rem;
     }
     
   }
@@ -154,7 +150,7 @@ html {
 
     color: #7e7e7e;
     width: 20px;
-    
+
   }
 
   & h3 {
