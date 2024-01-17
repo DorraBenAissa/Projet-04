@@ -113,6 +113,10 @@ html {
   margin-bottom: 0;
 }
 
+.fonctionnement__chaine:hover i {
+  color: #9356DC;
+}
+
 h4 {
   display: block;
   margin-block-start: 1.33em;
