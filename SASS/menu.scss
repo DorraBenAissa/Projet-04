@@ -309,7 +309,6 @@ h4 {
 
   &__button {
     @include button(primary);
-    
   }
 
 
@@ -802,6 +801,7 @@ article p {
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
+
 }
 
 .roseBouton1 {
@@ -817,7 +817,7 @@ article p {
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  
+  @include button(primary);
 }
 
 
@@ -1090,3 +1090,4 @@ article p {
 .delay-9 {
   animation-delay: 0.9s;
 }
+
