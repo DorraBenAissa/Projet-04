@@ -400,6 +400,9 @@ h4 {
     padding: 1rem;
   }
 }
+.footer i {
+  width: 30px;
+}
 .footer__logo {
   color: white;
   font-family: "Shrikhand", "cursive";
@@ -456,6 +459,7 @@ h4 {
     color: white;
     text-decoration: none;
     margin-top: 0px;
+    margin-right: 2rem;
   }
   .footer__link:hover {
     text-decoration: underline;
