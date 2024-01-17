@@ -85,7 +85,7 @@ html {
   padding: ($padding + 1rem) $padding;
   align-items: center;
 
-  &__titre {
+  &__title {
     display: block;
     font-size: 1.5em;
     font-weight: bold;
@@ -93,7 +93,7 @@ html {
       display:flex;
       width:1200px;
       gap:2rem;
-      margin: 1rem auto;
+      margin: 2rem auto;
     }
   }
 
@@ -157,6 +157,12 @@ html {
     align-items: center;
     margin-bottom: 0;
   }
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
 }
 
 h4 {
@@ -305,6 +311,7 @@ h4 {
 
   &__button {
     @include button(primary);
+    
   }
 
 
@@ -807,6 +814,7 @@ article p {
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  
 }
 
 

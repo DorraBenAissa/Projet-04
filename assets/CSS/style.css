@@ -46,20 +46,17 @@ html {
   padding: 2rem 1rem;
   align-items: center;
 }
-.fonctionnement__titre {
+.fonctionnement__title {
   display: block;
   font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 @media (min-width: 64rem) {
-  .fonctionnement__titre {
+  .fonctionnement__title {
     display: flex;
     width: 1200px;
     gap: 2rem;
+    margin: 2rem auto;
   }
 }
 .fonctionnement__chaines {
