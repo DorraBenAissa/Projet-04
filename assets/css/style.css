@@ -42,40 +42,40 @@ html {
   position: relative;
 }
 
-.fonctionnement {
+.operation {
   padding: 2rem 1rem;
   align-items: center;
 }
-.fonctionnement__title {
+.operation__title {
   display: block;
   font-size: 1.5em;
   font-weight: bold;
 }
 @media (min-width: 64rem) {
-  .fonctionnement__title {
+  .operation__title {
     display: flex;
     width: 1200px;
     gap: 2rem;
     margin: 2rem auto;
   }
 }
-.fonctionnement__chaines {
+.operation__steps {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 @media (min-width: 64rem) {
-  .fonctionnement__chaines {
+  .operation__steps {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     gap: 2rem;
   }
 }
-.fonctionnement li {
+.operation li {
   align-items: center;
 }
-.fonctionnement span {
+.operation span {
   height: 24px;
   width: 24px;
   border-radius: 50%;
@@ -86,7 +86,7 @@ html {
   align-items: center;
   margin-left: -12px;
 }
-.fonctionnement__chaine {
+.operation__step {
   padding: 1.5rem 0;
   margin: 1rem 0 1rem 0.75rem;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
@@ -98,22 +98,22 @@ html {
   gap: 24px;
 }
 @media (min-width: 64rem) {
-  .fonctionnement__chaine {
+  .operation__step {
     flex: 1;
     margin: 0;
     margin-left: 2rem;
   }
 }
-.fonctionnement__icon {
+.operation__icon {
   color: #7e7e7e;
   width: 20px;
 }
-.fonctionnement h3 {
+.operation h3 {
   align-items: center;
   margin-bottom: 0;
 }
 
-.fonctionnement__chaine:hover i {
+.operation__step:hover i {
   color: #9356DC;
 }
 
@@ -140,7 +140,7 @@ h4 {
   background-color: #f6f6f6;
   padding: 2rem 1rem;
 }
-.restaurants__titre {
+.restaurants__title {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -198,14 +198,16 @@ h4 {
 .card__content {
   flex: 1;
 }
-.card__titre {
+.card__title {
   margin: 0;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0.25rem;
   display: block;
   font-size: 1.17em;
   font-weight: bold;
 }
-.card__soustitre {
+.card__subtitle {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   width: 247px;
   height: 24px;
@@ -236,19 +238,19 @@ h4 {
   color: black;
 }
 
-.menue {
+.information {
   padding: 2rem;
   text-align: center;
   background-color: rgb(250, 250, 250);
 }
-.menue__title {
+.information__title {
   margin: 0;
 }
-.menue__soustitle {
+.information__subtitle {
   font-weight: 300;
   margin: 1.5rem 0;
 }
-.menue__button {
+.information__button {
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -261,11 +263,11 @@ h4 {
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
-.menue__button:hover {
+.information__button:hover {
   background-color: white;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
-.menue__button a {
+.information__button a {
   text-decoration: none;
   color: inherit;
 }
@@ -391,13 +393,13 @@ h4 {
 .footer {
   background-color: #353535;
 }
-.footer .contenu {
+.footer .content {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 @media (min-width: 64rem) {
-  .footer .contenu {
+  .footer .content {
     display: flex;
     flex-direction: row-reverse;
     gap: 2rem;
@@ -419,13 +421,13 @@ h4 {
     margin-top: 160px;
   }
 }
-.footer__listes {
+.footer__lists {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 @media (min-width: 64rem) {
-  .footer__listes {
+  .footer__lists {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -435,11 +437,11 @@ h4 {
     margin-top: 82px;
   }
 }
-.footer__liste1 {
+.footer__list {
   margin: 0.5rem 0;
 }
 @media (min-width: 64rem) {
-  .footer__liste1 {
+  .footer__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -652,14 +654,14 @@ article p {
   transition-duration: 0.5s;
 }
 
-.roseBouton {
+.pinkButtons {
   display: flex;
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
 }
 
-.roseBouton1 {
+.pinkButton {
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -684,16 +686,16 @@ article p {
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
-.roseBouton1:hover {
+.pinkButton:hover {
   background-color: white;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
-.roseBouton1 a {
+.pinkButton a {
   text-decoration: none;
   color: inherit;
 }
 
-.tailleImg {
+.sizeImg {
   max-width: 100%;
   max-height: 32rem;
   width: 100%;
@@ -940,6 +942,15 @@ article p {
 
 .delay-9 {
   animation-delay: 0.9s;
+}
+
+.card__title {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.25rem;
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
