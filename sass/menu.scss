@@ -361,7 +361,6 @@ h4 {
   animation: itemAppear .6s;
   animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
   animation-fill-mode: both;
-  // transform: scale(0);
   max-width: 100%;
   
 
@@ -696,7 +695,6 @@ article p {
   animation: itemAppear .6s;
   animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
   animation-fill-mode: both;
-  // transform: scale(0);
   max-width: 100%;
 
   &__header {
